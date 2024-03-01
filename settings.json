@@ -1,12 +1,12 @@
 {
   "bot-account": {
-    "username": "bot",
-    "password": "your_password",
-    "type": "microsoft"
+    "username": "Shay7",
+    "password": "",
+    "type": ""
   },
 
   "server": {
-    "ip": "localhost",
+    "ip": "MP.HylexMC.net",
     "port": 25565,
     "version": "1.19.3"
   },
@@ -20,14 +20,14 @@
 
   "utils": {
     "auto-auth": {
-      "enabled": false,
-      "password": "12345678"
+      "enabled": true,
+      "password": "shayalt7"
     },
 
     "anti-afk": {
-      "enabled": false,
+      "enabled": true,
       "sneak": false,
-      "jump": false,
+      "jump": true,
       "rotate": false,
 
       "hit": {
@@ -43,20 +43,17 @@
     },
 
     "chat-messages": {
-      "enabled": false,
-      "repeat": true,
+      "enabled": true,
+      "repeat": false,
       "repeat-delay": 60,
 
       "messages": [
-        "I'm a regular player ",
-        "My owner is urFate_ ",
-        "I want be alone ",
-        "Visit my GitHub page! (urFate/Afk-Bot)"
+        "/island visit ShayCormac069"
       ]
     },
 
     "chat-log": true,
-    "auto-reconnect": false,
+    "auto-reconnect": true,
     "auto-reconnect-delay": 5000
   }
 }
